@@ -1,5 +1,7 @@
 # dsh-hunyuan-3d
 
+[![CI](https://github.com/JJTovo/dsh-hunyuan-3d/actions/workflows/ci.yml/badge.svg)](https://github.com/JJTovo/dsh-hunyuan-3d/actions/workflows/ci.yml)
+
 Tencent Cloud Hunyuan 3D (混元生3D, the `ai3d` OpenAPI) as dsh agent tools:
 text-to-3D and image-to-3D job submission, result polling, and on-disk asset
 download so later turns and other tools (Blender, format converters) can consume
