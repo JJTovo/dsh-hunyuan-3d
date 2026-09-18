@@ -1,0 +1,8 @@
+# dsh-hunyuan-3d bundle patch: inserts the plugin row into a dsh profile
+# roster. The row is a bare plugin by package name; the host half (exports ".")
+# registers the Hunyuan 3D agent tools and needs no client half.
+- insert:
+    - id: hunyuan-3d
+      name: 'dsh-hunyuan-3d'
+      config:
+        region: ap-guangzhou
